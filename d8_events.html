@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body>
+    <!-- event
+     ---------
+     onclick=>function works on single click
+     ondblclick=>function works on double click
+     onmouseover=>function works on hover
+     onmouseout=>function works on removing hover
+     onkeyup=>function works on key entered
+     onkeydown=>function works on key pressed
+     on change=>function works on changing values
+      -->
+     <h1 id="name"></h1>
+     <h1 id="address"></h1>
+    <button onclick="showName()">Show name</button>
+    <button onclick="showAddress()">Show address</button>
+    <script>
+        function showName(){
+        document.getElementById('name').innerHTML='Aarnav'
+        }
+
+       
+        function showAddress(){
+        document.getElementById('address').innerHTML='Hattiban'
+        }
+        
+    </script>
+</body>
+</html>
